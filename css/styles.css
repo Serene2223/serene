@@ -2,23 +2,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');
-/* Changing the main font and background colour */
 
+/* Changing the main font and background colour */
+h1 {
+  font-family: 'Playfair Display', serif;
+	color: #7B3F5F;
+	font-weight: bold;
+}
 body {
-	font-family: Raleway, sans-serif;
-	background-color: #fffcf8;
+	font-family: 'Source Sans Pro', sans-serif;
+	background-color: #EFEAE7;
 }
 .headlinefont {
 	font-family: 'Playfair Display SC', serif;
 }
 .bodyfont {
-	font-family: 'Abhaya Libre', serif;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 	
 /* Changing the background colour for the header */
 
 header {
-	background-color: #eee9e6;
+	background-color: #EFEAE7;
 }
 
 /* Changing the background color for the navigation bar */
