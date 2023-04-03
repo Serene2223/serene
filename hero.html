@@ -21,6 +21,19 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
     <title>PRJ4 Base Group Template &mdash; Hero Section UX</title>
+	  
+	    <style>
+		   .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .section {
+      margin-bottom: 50px;
+    }
+  
+</style>
 
     <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
 
@@ -33,7 +46,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
-          <img src="images/buas-square.svg" width="40" alt="Breda University of Applied Sciences">
+          <img src="images/serene-logo.png" width="50" alt="Serene logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -45,7 +58,7 @@
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                UX Patterns
+                Our brand
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item active" aria-current="page" href="hero.html">Hero Section</a></li>
@@ -70,18 +83,28 @@
     
 
     <!-- Start of section adapted from https://getbootstrap.com/docs/5.1/examples/album/ -->
-    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
-      <div class="row">
-        <div class="col-md-8 col-lg-6 mx-auto py-5">
-          <h1 class="display-3"><strong>Serene&nbsp;</strong></h1>
-          <p class="lead bodyfont">A short and snappy tagline that makes your reader want to read things from your website.</p>
-          <p class="mt-5">
-            <a href="#" class="btn btn-success" style="background-color: #7B3F5F; border-color: #7B3F5F" >Explore our brand!&nbsp;&nbsp;</a> 
-          </p>
-        </div>
+	  <div class="center">
+    <div class="text-center">
+      <div class="section">
+        <h2>Vision</h2>
+        <p>Using a rectangular image </p>
       </div>
-    </header>
-    <!-- End of hero section -->
+      <div class="section">
+        <h2>Values</h2>
+        <p>(Using carousel)</p>
+      </div>
+      <div class="section">
+        <h2>Services</h2>
+        <p>Body text for heading 3 goes here.</p>
+      </div>
+      <div class="section">
+        <h2>Style guide</h2>
+        <p>Body text for heading 4 goes here.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Bootstrap JS -->
+ 
 
     <!-- A footer with socials -->
     <footer class="shadow-lg mt-auto py-4 bg-body">
