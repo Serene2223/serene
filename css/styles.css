@@ -1,5 +1,5 @@
 /* Importing a Google Font */
-
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Source+Sans+Pro&display=swap');
 /* Changing the main font and background colour */
 h1 {
   font-family: 'Playfair Display', serif;
@@ -39,7 +39,7 @@ footer a:hover {
 /* Corporate navbar */
 
 #navbar-corporate a.active {
-	color: #800000;
+	color: #7B3F5F;
 	font-weight: bold;
 }
 
