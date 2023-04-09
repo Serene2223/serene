@@ -6,10 +6,9 @@ h1 {
 	color: #7B3F5F;
 	font-weight: bold;
 }
-body {
-	
-	background-color: #EFEAE7;
-}
+
+
+
 .headlinefont {
 	font-family: 'Playfair Display SC', serif;
 }
@@ -21,6 +20,7 @@ body {
 
 
 
+
 /* Changing the background color for the navigation bar */
 
 .navbar {
@@ -29,7 +29,8 @@ body {
 
 /* Effect on social media buttons */
 
-footer a:hover {
+footer :hover {
+	color: #7B3F5F;
 	opacity: .5;
 }
 
@@ -45,7 +46,15 @@ footer a:hover {
 .w-400 {
 }
 
-
+   .center {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .section {
+      margin-bottom: 50px;
+    }
 
 
 
