@@ -14,10 +14,10 @@ p { color: black}
 .bodyfont {
 	font-family: 'Source Sans Pro', sans-serif;
 }
-	.my-box {
-		background:#EFEAE7 
-		
-}
+.my-box {
+	border-color: #EFEAE7;
+	background-color: #EFEAE7
+		}
 
 /* Changing the background colour for the header */
 .header {
@@ -62,3 +62,5 @@ footer :hover {
 
 
 
+.border-color {
+}
