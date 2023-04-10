@@ -17,8 +17,9 @@ p { color: black}
 
 	
 /* Changing the background colour for the header */
-
-
+.header {
+	background-color: transparent;
+}
 
 
 /* Changing the background color for the navigation bar */
@@ -32,7 +33,6 @@ p { color: black}
 footer :hover {
 	color: #7B3F5F;
 	opacity: 1;
-	
 }
 
 /* Corporate navbar */
