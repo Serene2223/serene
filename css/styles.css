@@ -31,13 +31,14 @@ p { color: black}
 
 footer :hover {
 	color: #7B3F5F;
-	opacity: .5;
+	opacity: 1;
+	
 }
 
 /* Corporate navbar */
 
-#navbar-corporate a.active {
-	color: #7B3F5F;
+.navbar-corporate active {
+	font-color: #7B3F5F;
 	font-weight: bold;
 }
 
