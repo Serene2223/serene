@@ -16,10 +16,16 @@ p { color: black}
 }
 .my-box {
 	border-color: #EFEAE7;
-	background-color: #EFEAE7
+	background-color: rgba(239,234,231,0.6); 
+	
 }
-/* Changing 
-     border-color:
+.card-body {
+	background-color: rgba(239,234,231,0.6);	
+}
+.card-footer{
+	background-color: rgba(239,234,231,0.6);	
+}
+/* Changing border-color:
 the background colour for the header */
 .header {
 	background-color: transparent;
@@ -62,8 +68,3 @@ footer :hover {
     .section {
       margin-bottom: 50px;
     }
-
-
-
-.border-color {
-}
