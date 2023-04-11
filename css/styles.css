@@ -18,12 +18,15 @@ p { color: black}
 	border-color: #EFEAE7;
 	background-color: #EFEAE7
 }
-
-/* Changing the background colour for the header */
+/* Changing 
+     border-color:
+the background colour for the header */
 .header {
 	background-color: transparent;
 }
-
+.the-border {
+     border-bottom-color:#7B3F5F
+}
 
 /* Changing the background color for the navigation bar */
 
