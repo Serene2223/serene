@@ -2,11 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Source+Sans+Pro&display=swap');
 /* Changing the main font and background colour */
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', ;
 	color: #7B3F5F;
 	font-weight: bold;
 }
-p { color: black}
+p { font-family: 'source sans pro';
+	color: black}
 
 .headlinefont {
 	font-family: 'Playfair Display SC', serif;
