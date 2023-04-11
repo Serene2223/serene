@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Source+Sans+Pro&display=swap');
 /* Changing the main font and background colour */
 h1 {
-  font-family: 'Playfair Display', ;
+  font-family: 'Playfair Display SC', ;
 	color: #7B3F5F;
 	font-weight: bold;
 }
