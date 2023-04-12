@@ -58,7 +58,7 @@ the background colour for the header */
 
 footer :hover {
 	color: #7B3F5F;
-	opacity: 1;
+	opacity: 0.6;
 }
 
 /* Corporate navbar */
