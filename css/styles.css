@@ -17,8 +17,7 @@ p { font-family: 'source sans pro';
 }
 .my-box {
 	border-color: #EFEAE7;
-	background-color: rgba(239,234,231,0.6); 
-	
+	background-color: rgba(239,234,231,0.6); 	
 }
 .card-body {
 	background-color: rgba(239,234,231,0.6);	
