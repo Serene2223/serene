@@ -40,6 +40,12 @@ the background colour for the header */
 .navbar {
 	background-color: #b8d8c8;
 }
+.navbar-nav .nav-link {
+    color: #7B3F5E;
+}
+.navbar-nav .nav-link.active {
+    color: #4D273B;
+}
 
 /* Effect on social media buttons */
 
