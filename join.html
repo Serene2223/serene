@@ -17,40 +17,44 @@
 	  
 	  
 <style>
-	.flip-card {
-  background-color: transparent;
-  width: 400px;
-  height: 450px;
-  border: 1px solid #f1f1f1;
-  perspective: 1000px;
+	/* Style the form element with a border around it */
+form {
+  border: 4px solid #f1f1f1;
 }
-	.flip-card-inner {
-  position: relative;
+
+/* Add some padding and a grey background color to containers */
+
+	.container-newsletter {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
   width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
 }
-	.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+  margin-top: 16px;
 }
-	.flip-card-front, .flip-card-back {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
+
+/* Style the submit button */
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  border: none;
 }
-	.flip-card-front {
-  background-color: transparent;
-  color: transparent;
+
+input[type=submit]:hover {
+  opacity: 0.8;
 }
-	.flip-card-back {
-  background-color: #B7CDB7;
-  color: transparent;
-  transform: rotateY(180deg);
-}
+	
 	  </style>
 	
 		  
@@ -107,86 +111,24 @@ ADD GOOGLE ANALYTICS !!!
       </div>
     </nav>
     <!-- End of navigation bar -->
-	  <section
-	  <div class="container my-1">
-		  <div class="my-box border-start border p-2 bg-opacity-10 rounded border-color" >
-			  <h3 class="headlinefont">Meet our Team</h3>
-			  <p class="bodyfont"><span class="headlinefont">Serene</span> &nbsp;has a professional team that is passionate about ensuring that all mothers who come to us leave with a smile and feel that they have found a place of rest and relaxation with us. We know how stressful everyday life as a mother can be and want to help you take time out and replenish your energy.</p>
-		  </div>
-	</section>
-	&nbsp;
-	&nbsp;
-	&nbsp;
-	&nbsp;
-    <!-- A grid with cards
-      Learn about grids at: https://getbootstrap.com/docs/5.1/layout/grid/
-      Learn about cards at: https://getbootstrap.com/docs/5.1/components/card/
-    -->
-    <main class="container my-1">
-      <div class="row g-3 justify-content-evenly">
-
-        <!-- Card #1 -->
-		  	  <div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="images/teampictures/teampicture-cindy.png" alt="Sophie" style="width:338.4px;height:225.6px;">
-		<div footer class="flipcardtext">Sophie</div>
-    </div>
-    <div class="flip-card-back">
-      <h1 class="headlinefont"> Jop description</h1>
-      <p class="card-text bodyfont">As a content creator, her role is to communicate the unique voice and messaging of our clients through various forms of media such as text, images, and videos. At our team, we believe that great content is the backbone of any successful digital strategy, and we take pride in our ability to create content that captures the attention and interest of our clients' target audiences. We work closely with our clients to understand their brand voice, messaging, and goals, and then use our creativity and storytelling skills to bring their vision to life. We are committed to producing high-quality, original content that engages, informs, and inspires audiences across various digital platforms.</p>
-    </div>
+	  <form action="action_page.php">
+  <div class="container">
+    <h2>Subscribe to our Newsletter</h2>
+    <p>Lorem ipsum..</p>
   </div>
-</div>
 
-        <!-- Card #2 -->
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="images/teampictures/teampicture-glenelize.png" alt="Glenelize" style="width:338.4px;height:225.6px;">
-		<div footer class="flipcardtext">Glenelize</div>
-    </div>
-    <div class="flip-card-back">
-      <h1 class="headlinefont"> Job description</h1>
-      <p class="card-text bodyfont">As a content creator, her role is to communicate the unique voice and messaging of our clients through various forms of media such as text, images, and videos. At our team, we believe that great content is the backbone of any successful digital strategy, and we take pride in our ability to create content that captures the attention and interest of our clients' target audiences. We work closely with our clients to understand their brand voice, messaging, and goals, and then use our creativity and storytelling skills to bring their vision to life. We are committed to producing high-quality, original content that engages, informs, and inspires audiences across various digital platforms.</p>
-    </div>
+  <div class="container-newsletter" style="background-color:white">
+    <input type="text" placeholder="Name" name="name" required>
+    <input type="text" placeholder="Email address" name="mail" required>
+    <label>
+      <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+    </label>
   </div>
-</div>
-		  <p>
-		  </p>
-        <!-- Card #3 -->
- <div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="images/teampictures/teampicture-cindy.png" alt="Cindy" style="width:338.4px;height:225.6px;">
-		<div footer class="flipcardtext">Cindy</div>
-    </div>
-    <div class="flip-card-back">
-      <h1 class="headlinefont"> Content creator</h1>
-      <p class="card-text bodyfont">As a content creator, her role is to communicate the unique voice and messaging of our clients through various forms of media such as text, images, and videos. At our team, we believe that great content is the backbone of any successful digital strategy, and we take pride in our ability to create content that captures the attention and interest of our clients' target audiences. We work closely with our clients to understand their brand voice, messaging, and goals, and then use our creativity and storytelling skills to bring their vision to life. We are committed to producing high-quality, original content that engages, informs, and inspires audiences across various digital platforms.</p>
-    </div>
-  </div>
-</div>
-        <!-- Card #4 -->
-<div class="flip-card">
-  <div class="flip-card-inner">
-    <div class="flip-card-front">
-      <img src="images/teampictures/teampicture-palak.png" alt="Palak" style="width:338.4px;height:225.6px;">
-		<div footer class="flipcardtext">Palak</div>
-    </div>
-    <div class="flip-card-back">
-      <h1 class="headlinefont"> Creative Writer</h1>
-      <p class="card-text bodyfont">She brings a unique perspective and a passion for storytelling to everything she writes. With a keen eye for detail and a gift for weaving together compelling narratives, she is an essential member of our team, bringing fresh ideas and a wealth of experience to every project she takes on. We are proud to have her on our team and can't wait for you to get to know her better.</p>
-    </div>
-  </div>
-</div>
-        
-        <!-- That was the last card -->
 
-      </div>
-    </main>
-    <!-- End of the grid with cards -->
-
+  <div class="container">
+    <input type="submit" value="Subscribe">
+  </div>
+</form>
     <!-- A footer with socials -->
     <footer class="shadow-lg mt-auto py-4 bg-body bg-transparent">
 <div class="container d-flex justify-content-between align-items-center">
