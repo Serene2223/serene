@@ -17,16 +17,22 @@
 	  
 	  
 <style>
-	/* Style the form element with a border around it */
+
+  /* Style the form element with a border around it */
 form {
   border: 4px solid #f1f1f1;
 }
 
 /* Add some padding and a grey background color to containers */
-
-	.container-newsletter {
+.container {
   padding: 20px;
-  background-color: #f1f1f1;
+  background-color: transparent;
+	width: 60%
+}
+	.container-footerr {
+  padding: 20px;
+  background-color: transparent;
+	width: 100%
 }
 
 /* Style the input elements and the submit button */
@@ -46,7 +52,7 @@ input[type=checkbox] {
 
 /* Style the submit button */
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #7B3F5E;
   color: white;
   border: none;
 }
@@ -54,7 +60,11 @@ input[type=submit] {
 input[type=submit]:hover {
   opacity: 0.8;
 }
+	 input[type="checkbox"]:checked {
+    background-color: #7B3F5E;
+  }
 	
+
 	  </style>
 	
 		  
@@ -66,7 +76,7 @@ input[type=submit]:hover {
 	  <link rel="icon" href="images/serene-pink-bg.png" type="image/x-icon">
 
     <!-- Google Analytics code goes just below here (check PRJ4 Guide for details) -->
-ADD GOOGLE ANALYTICS !!!
+
     <!-- End of Google Analytics code -->
     
   </head>
@@ -110,28 +120,30 @@ ADD GOOGLE ANALYTICS !!!
         </div>
       </div>
     </nav>
-    <!-- End of navigation bar -->
+ 
 	  <form action="action_page.php">
   <div class="container">
     <h2>Subscribe to our Newsletter</h2>
     <p>Lorem ipsum..</p>
   </div>
 
-  <div class="container-newsletter" style="background-color:white">
+    <div class="container" style="background-color:white">
     <input type="text" placeholder="Name" name="name" required>
     <input type="text" placeholder="Email address" name="mail" required>
     <label>
       <input type="checkbox" checked="checked" name="subscribe"> Daily Newsletter
+		<input type="checkbox" checked="checked" name="subscribe"> Monthly Newsletter
     </label>
   </div>
 
   <div class="container">
     <input type="submit" value="Subscribe">
   </div>
-</form>
-    <!-- A footer with socials -->
+	  </form>
+	  
+	  
     <footer class="shadow-lg mt-auto py-4 bg-body bg-transparent">
-<div class="container d-flex justify-content-between align-items-center">
+<div class="container-footer d-flex justify-content-between align-items-center">
     <p>
         ©2023 Serene &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; </p>
         <ul class="list-unstyled d-flex align-items-center opacity-75">
