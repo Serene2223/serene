@@ -69,7 +69,7 @@ the background colour for the header */
 }
 
   body { 
-	  background-color: #EFEAE7;
+	background-color: #EFEAE7!important;
 }
 
 .bg-body {
