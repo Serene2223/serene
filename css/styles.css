@@ -9,13 +9,12 @@ h1 {
 h2 {font-family: 'Playfair Display SC';
 	Color: #7B3F5F;
 }
-
-
 .headlinefont {
 	font-family: 'Playfair Display SC', serif;
 }
 .bodyfont {
 	font-family: 'Source Sans Pro', sans-serif;
+	color: black
 }
 .videotext {
         position: absolute;
