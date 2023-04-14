@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display+SC&family=Source+Sans+Pro&display=swap');
 /* Changing the main font and background colour */
 h1 {
-  font-family: 'Playfair Display SC', ;
+  font-family: 'Playfair Display SC';
 	color: #7B3F5F;
 	font-weight: bold;
 }
@@ -71,10 +71,6 @@ the background colour for the header */
   body { 
 	background-color: #EFEAE7!important;
 }
-
-.bg-body {
-	background-color: #B7CDB7!important; }
-
 /* Effect on social media buttons */
 
 footer :hover {
@@ -97,11 +93,11 @@ footer :hover {
    .center {
       display: flex;
       justify-content: center;
-      align-items: center;
+      align-items:center;
       height: 100vh;
     }
     .section {
       margin-bottom: 50px;
     }
-.boderinfo {
+.borderinfo {
 }
